@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CNPJ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Consulta de CNPJ</h1>
+        <div class="form-group">
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" class="form-control" placeholder="Digite o CNPJ">
+        </div>
+        <button id="consultar" class="btn">Consultar</button>
+
+        <div id="resultado" class="mt-4">
+            <!-- Dados da empresa serão exibidos e tornados editáveis aqui por meio do script.js -->
+        </div>
+
+        <button id="enviar" class="btn btn-secondary" style="display:none;">Enviar</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
